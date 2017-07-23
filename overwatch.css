@@ -12,3 +12,9 @@ video {
   position: absolute;
   opacity: .5;
 }
+
+.container {
+  height: 600px;
+  width: 100%;
+  background: orange;
+}
