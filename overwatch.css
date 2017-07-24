@@ -14,7 +14,15 @@ video {
 }
 
 .container {
+  display: grid;
   height: 600px;
   width: 100%;
-  background: orange;
+  grid-template-columns: 1fr;
+  grid-template-rows: 268px 39px 140px 83px 1fr;
+  grid-template-areas: "top" "countdown" "selections" "heroes" "select";
+}
+
+.selections {
+  background-color: red;
+  grid-area: selections;
 }
